@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <div>
       <div className='header w-full h-screen'>
-        <Navbar/>
+        <div className='pt-2'>
+            <Navbar/>
+        </div>
       </div>
     </div>
   )
