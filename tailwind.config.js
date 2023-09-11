@@ -14,6 +14,10 @@ export default {
     extend: {
       fontFamily: {
         Dancing:["Dancing Script","cursive"],
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
       }
     },
   },
