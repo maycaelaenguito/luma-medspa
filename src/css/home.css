@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dancing+Script:wght@400;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300&display=swap');
-
 .header{
     background: rgba(0, 0, 0, 0.276) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1694409717/Luma%20Medspa/skin2_2_p4ox0s.png);
     background-size: cover;
@@ -14,10 +12,14 @@
 
 .navbar-con, .header-content h1{
     font-family: 'Raleway', sans-serif;
+    
 }
 
+.header-content h1{
+    line-height: 140px;
+}
 .header-content p{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bonheur Royale', cursive;
 }
 
 
