@@ -8,10 +8,14 @@ export default {
       tight: '-.025em',
       normal: '0',
       wide: '.025em',
-      wider: '.05em',
+      wider: '.055em',
       widest: '.115em',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Dancing:["Dancing Script","cursive"],
+      }
+    },
   },
   plugins: [],
 }

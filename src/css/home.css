@@ -6,61 +6,14 @@
 
 .header{
     background: rgba(0, 0, 0, 0.276) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1694409717/Luma%20Medspa/skin2_2_p4ox0s.png);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    background-blend-mode: darken;
+    background-position: center;
 }
 
-.navbar-con{
+.navbar-con, .header-content h1{
     font-family: 'Raleway', sans-serif;
 }
 
 
-.ll{
-/* Property 1=Default */
-
-position: absolute;
-width: 244px;
-height: 59px;
-left: 20px;
-top: 20px;
 
 
-
-/* Rectangle 2 */
-
-box-sizing: border-box;
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-border: 2px solid #EFB2B1;
-border-radius: 5px;
-
-
-/* Learn More. */
-
-position: absolute;
-left: 13.11%;
-right: 12.3%;
-top: 23.73%;
-bottom: 20.34%;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-
-
-
-}
