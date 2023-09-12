@@ -30,13 +30,13 @@ const Navbar = () => {
         </div>
         <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[16px] 2xl:text-[18px] items-center'>
             <li className='hover:text-[#f5a6a6] transition duration-300'>
-                <Link to="/">Blog</Link>
+                <Link to="/blog">Blog</Link>
             </li>
             <li className='hover:text-[#f5a6a6] transition duration-300'> 
-                <Link to="/">Shop</Link>
+                <Link to="/shop">Shop</Link>
             </li>
             <li className='hover:text-[#f5a6a6] transition duration-300'>
-                <Link to="/">Gallery</Link>
+                <Link to="/gallery">Gallery</Link>
             </li>
             <li>
                 <BookBtn/>
