@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="xl:flex hidden navbar-con flex-row justify-around text-slate-100 tracking-widest font-medium">
-        <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[18px] items-center '>
+        <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[16px] 2xl:text-[18px] items-center '>
             <li className='hover:text-[#f5a6a6] transition duration-300'>
                 <Link to="/">Home</Link>
             </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
             </Link>
         </div>
-        <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[18px] items-center'>
+        <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[16px] 2xl:text-[18px] items-center'>
             <li className='hover:text-[#f5a6a6] transition duration-300'>
                 <Link to="/">Blog</Link>
             </li>

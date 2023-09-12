@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <div className='header w-full h-screen bg-no-repeat bg-blend-darken'>
-        <div className='xl:pt-2'>
+        <div className='2xl:pt-1'>
               <Navbar/>
               <MobileNav/>
         </div>
