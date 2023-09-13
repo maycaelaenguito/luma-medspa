@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <div className='flex flex-col md:flex-row mt-[5rem] gap-7 md:mt-[12vh] lg:mt-[30vh] xl:mt-[20vh] 2xl:mt-[27vh] px-[10%]'>
           <div className='w-full flex items-center justify-center'>
-            <div className='w-[230px]'>
+            <div className='md:w-[240px] w-[270px]'>
               <div className='max-w-[100%]'>
                 <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694409715/Luma%20Medspa/Luma_Logo_No_Circle_lnoxsd.png" alt="LUMA Medspa Logo" />
               </div>
@@ -38,7 +38,20 @@ const Home = () => {
           </div>
           <div className='flex items-center w-[100%]'>
             <div className='font-raleway'>
-              <p className='white'>At <span className='text-[#F2A8A6]'>LUMA Medspa</span>, we believe that beauty is more than skin deep. It&apos;s about feeling confident, radiant, and healthy from the inside out. Our mission is to help you achieve your best self through a range of cutting-edge, non-invasive treatments and personalized care. Our mission is to help you achieve your best self through a holistic approach that encompasses both physical and emotional well-being. We go beyond traditional cosmetic treatments to provide a comprehensive experience that nurtures your inner radiance.</p>
+              <p className='white lg:leading-[29.85px] md:text-[14px] lg:text-[17px]'>At <span className='text-[#F2A8A6]'>LUMA Medspa</span>, we believe that beauty is more than skin deep. It&apos;s about feeling confident, radiant, and healthy from the inside out. Our mission is to help you achieve your best self through a range of cutting-edge, non-invasive treatments and personalized care. Our mission is to help you achieve your best self through a holistic approach that encompasses both physical and emotional well-being. We go beyond traditional cosmetic treatments to provide a comprehensive experience that nurtures your inner radiance.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div className=''>
+              <h1> Clinical Skincare Treatments</h1>
+              <hr className="h-[2px] w-[300px] border-t-0 bg-[#FFA2A0] opacity-100 mb-[5rem]" />
+            </div>
+            <div>
+              <div>
+                <h1>Hello</h1>
+              </div>
             </div>
           </div>
         </div>
