@@ -30,7 +30,7 @@ const Home = () => {
           </div>
       </div>
        <div className='xl:px-[16.6%] px-[10%]'>
-          <div className='flex flex-col md:flex-row mt-[5rem] md:mt-[12vh] gap-[5rem] lg:mt-[30vh] xl:mt-[20vh] 2xl:mt-[27vh]'>
+          <div className='flex flex-col md:flex-row gap-3 md:gap-[5rem] my-[6rem]'>
             <div className='md:w-[30vw] w-full flex items-center justify-center'>
               <div className='w-[100%] flex justify-center'>
                 <div>
@@ -48,11 +48,26 @@ const Home = () => {
             <div>
               <div className=''>
                 <h1> Clinical Skincare Treatments</h1>
-                {/* <hr className="h-[2px] w-[300px] border-t-0 bg-[#FFA2A0] opacity-100 mb-[5rem]" /> */}
+                <hr className="h-[2px] lg:w-[300px] border-t-0 bg-[#FFA2A0] opacity-100" />
               </div>
-              <div>
-                <div>
-                  <h1>Hello</h1>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[3rem] my-[4rem]'>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png" alt="" />
+                </div>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/2_4_vkqchp.png" alt="" />
+                </div>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688446/Luma%20Medspa/3_4_ctbgzu.png" alt="" />
+                </div>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/4_2_famr5z.png" alt="" />
+                </div>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/5_2_a4ov27.png" alt="" />
+                </div>
+                <div className='w-[100%]'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/6_1_rb4m9j.png" alt="" />
                 </div>
               </div>
             </div>
