@@ -6,7 +6,7 @@ import { Squash as Hamburger } from 'hamburger-react';
 const MobileNav = () => {
   return (
     <div>
-      <div className='xl:hidden w-full h-[10vh] bg-[#ffd5d4] flex flex-row justify-between items-center px-[1rem]'>
+      <div className='xl:hidden w-full h-[85px] bg-[#ffd5d4] flex flex-row justify-between items-center px-[1rem]'>
         <div className="logo-container w-[full] flex justify-left">
             <Link to="/">
                 <div className='logo-container w-[65px]'>
@@ -15,7 +15,8 @@ const MobileNav = () => {
             </Link>
         </div>
         <div>
-            <Hamburger />
+            <Hamburger 
+            size={25}/>
         </div>
       </div>
     </div>

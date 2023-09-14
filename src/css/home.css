@@ -10,10 +10,5 @@
     background-position: center;
 }
 
-@media (min-width: 1024px) and (max-height: 780px){
-    .header-content{
-        height: 75vh;
-    }
-}
 
 
