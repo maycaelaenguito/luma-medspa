@@ -9,7 +9,7 @@ const MobileNav = () => {
       <div className='xl:hidden w-full h-[10vh] bg-[#ffd5d4] flex flex-row justify-between items-center px-[1rem]'>
         <div className="logo-container w-[full] flex justify-left">
             <Link to="/">
-                <div className='logo-container w-[80px]'>
+                <div className='logo-container w-[70px]'>
                     <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694422792/Luma%20Medspa/Luma_Logo_No_Circle_1_senvvn.png" alt="" />
                 </div>
             </Link>

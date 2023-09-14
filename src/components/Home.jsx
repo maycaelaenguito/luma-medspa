@@ -15,9 +15,9 @@ const Home = () => {
         </div>
         <div className="flex h-[90vh] lg:h-auto items-center lg:items-end justify-center header-content lg:pt-[7rem] xl:pt-[3rem]">
             <div>
-                <h1 className='font-raleway text-slate-100 font-[300] tracking-wider lg:text-[120px] text-center lg:leading-[10rem]'>Welcome to <br/> <span className='text-black'>LUMA</span> <span className='text-[#F2A8A6]'>Medspa</span></h1>
+                <h1 className='font-raleway text-slate-100 font-[300] tracking-wider text-[12vw] sm:text-[80px] md:text-[100px] lg:text-[120px] text-center lg:leading-[10rem]'>Welcome to <br/> <span className='text-black'>LUMA</span> <span className='text-[#F2A8A6]'>Medspa</span></h1>
                 <div className='flex justify-center'>
-                  <p className='font-Dancing text-center lg:text-[50px] xl:text-[60px] text-slate-100 leading-none'>Take care of your beauty and <br/> wellness</p>
+                  <p className='font-Dancing text-center text-[6.5vw] sm:text-[35px] lg:text-[50px] xl:text-[60px] text-slate-100 leading-none'>Take care of your beauty and <br/> wellness</p>
                 </div>
                 <div className='flex justify-center w-full lg:pt-[3rem]'>
                   <Link>
@@ -47,7 +47,7 @@ const Home = () => {
             <div>
               <div className=''>
                 <h1> Clinical Skincare Treatments</h1>
-                <hr className="h-[2px] w-[300px] border-t-0 bg-[#FFA2A0] opacity-100 mb-[5rem]" />
+                {/* <hr className="h-[2px] w-[300px] border-t-0 bg-[#FFA2A0] opacity-100 mb-[5rem]" /> */}
               </div>
               <div>
                 <div>
