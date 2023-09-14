@@ -10,5 +10,50 @@
     background-position: center;
 }
 
+.grid-col-1{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png') top center / cover no-repeat;
+    height: 366px;
+    background-position: center;
+}
 
+.grid-col-1:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.37) 0%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.37) 0.01%, rgba(0, 0, 0, 0.50) 49.48%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png') top center / cover no-repeat;
+    background-position: center;
+    zoom: 1;
+}
+
+.grid-col-2{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/2_4_vkqchp.png') top center / cover no-repeat;
+    height: 366px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-col-3{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688446/Luma%20Medspa/3_4_ctbgzu.png') top center / cover no-repeat;
+    height: 366px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-col-4{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/4_2_famr5z.png') top center / cover no-repeat;
+    height: 366px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-col-5{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/5_2_a4ov27.png') top center / cover no-repeat;
+    height: 366px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-col-6{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/6_1_rb4m9j.png') top center / cover no-repeat;
+    height: 366px;
+    background-size: cover;
+    background-position: center;
+}
 

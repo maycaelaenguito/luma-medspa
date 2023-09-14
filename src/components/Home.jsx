@@ -45,30 +45,42 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <div>
+            <div className='font-raleway font-bold text-[15px] tracking-wide'>
               <div className=''>
                 <h1> Clinical Skincare Treatments</h1>
                 <hr className="h-[2px] lg:w-[300px] border-t-0 bg-[#FFA2A0] opacity-100" />
               </div>
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[3rem] my-[4rem]'>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png" alt="" />
-                </div>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/2_4_vkqchp.png" alt="" />
-                </div>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688446/Luma%20Medspa/3_4_ctbgzu.png" alt="" />
-                </div>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/4_2_famr5z.png" alt="" />
-                </div>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/5_2_a4ov27.png" alt="" />
-                </div>
-                <div className='w-[100%]'>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/6_1_rb4m9j.png" alt="" />
-                </div>
+                <Link className='grid-item'>
+                  <div className='w-[100%] grid-item grid-col-1 flex items-end'>
+                      <p className='text-slate-100 px-10 py-7'>Injectables and Fillers</p>
+                  </div>
+                </Link>
+                <Link>
+                  <div className='w-[100%] grid-item grid-col-2 flex items-end'>
+                    <p className='text-slate-100 px-10 py-7'>IV Therapy and Injections</p>
+                  </div>
+                </Link>
+                <Link>
+                  <div className='w-[100%] grid-item grid-col-3 flex items-end'>
+                    <p className='text-slate-100 px-10 py-7'>Non-Surgical Procedures</p>
+                  </div>
+                </Link>
+                <Link>
+                  <div className='w-[100%] grid-item grid-col-4 flex items-end'>
+                    <p className='text-slate-100 px-10 py-7'>Intimate Wellness</p>
+                  </div>
+                </Link>
+                <Link>
+                  <div className='w-[100%] grid-item grid-col-5 flex items-end'>
+                    <p className='text-slate-100 px-10 py-7'>Aesthetic Services</p>
+                  </div>
+                </Link>
+                <Link>
+                  <div className='w-[100%] grid-item grid-col-6 flex items-end'>
+                    <p className='text-slate-100 px-10 py-7'>Retail Skincare and Makeup</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
