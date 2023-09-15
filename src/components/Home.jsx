@@ -51,36 +51,48 @@ const Home = () => {
                 <hr className="h-[2px] lg:w-[300px] border-t-0 bg-[#FFA2A0] opacity-100" />
               </div>
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[3rem] my-[4rem]'>
-                <Link className='grid-item'>
-                  <div className='w-[100%] grid-item grid-col-1 flex items-end'>
-                      <p className='text-slate-100 px-10 py-7'>Injectables and Fillers</p>
-                  </div>
-                </Link>
-                <Link>
-                  <div className='w-[100%] grid-item grid-col-2 flex items-end'>
-                    <p className='text-slate-100 px-10 py-7'>IV Therapy and Injections</p>
-                  </div>
-                </Link>
-                <Link>
-                  <div className='w-[100%] grid-item grid-col-3 flex items-end'>
-                    <p className='text-slate-100 px-10 py-7'>Non-Surgical Procedures</p>
-                  </div>
-                </Link>
-                <Link>
-                  <div className='w-[100%] grid-item grid-col-4 flex items-end'>
-                    <p className='text-slate-100 px-10 py-7'>Intimate Wellness</p>
-                  </div>
-                </Link>
-                <Link>
-                  <div className='w-[100%] grid-item grid-col-5 flex items-end'>
-                    <p className='text-slate-100 px-10 py-7'>Aesthetic Services</p>
-                  </div>
-                </Link>
-                <Link>
-                  <div className='w-[100%] grid-item grid-col-6 flex items-end'>
-                    <p className='text-slate-100 px-10 py-7'>Retail Skincare and Makeup</p>
-                  </div>
-                </Link>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-1 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>Injectables and Fillers</p>
+                  </Link>
+                </div>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-2 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>IV Therapy and Injections</p>
+                  </Link>
+                </div>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-3 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>Non-Surgical Procedures</p>
+                  </Link>
+                </div>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-4 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>Intimate Wellness</p>
+                  </Link>
+                </div>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-5 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>Aesthetic Services</p>
+                  </Link>
+                </div>
+                <div className='relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
+                  <Link className='grid-item'>
+                      <div className='grid-item bg-grid-col-6 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out hover:scale-105 h-[366px]'>  
+                      </div>
+                    <p className='text-slate-100 bottom-5 left-7 absolute'>Retail Skincare and Makeup</p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

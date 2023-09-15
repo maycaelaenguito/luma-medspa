@@ -10,19 +10,14 @@
     background-position: center;
 }
 
-.grid-col-1{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png') top center / cover no-repeat;
-    height: 366px;
-    background-position: center;
-}
 
-.grid-col-1:hover{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.37) 0%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.37) 0.01%, rgba(0, 0, 0, 0.50) 49.48%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png') top center / cover no-repeat;
+/* .grid-col-1{
+    background: url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png') top center / cover no-repeat;
     background-position: center;
-    zoom: 1;
-}
+} */
 
-.grid-col-2{
+
+/* .grid-col-2{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/2_4_vkqchp.png') top center / cover no-repeat;
     height: 366px;
     background-size: cover;
@@ -55,5 +50,5 @@
     height: 366px;
     background-size: cover;
     background-position: center;
-}
+} */
 
