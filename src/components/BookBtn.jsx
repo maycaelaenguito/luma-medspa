@@ -7,7 +7,8 @@ const BookBtn = () => {
     <div>
       <div>
         <Link to='/booking'>
-            <button className='uppercase tracking-widest border-2 border-[#EFB2B1] px-4 py-2 rounded-sm hover:bg-[#EFB2B1] transition duration-300'>
+            <button className='text-slate-50 font-raleway font-medium text-xs sm:text-sm md:text-lg uppercase tracking-widest border-2 border-[#EFB2B1] 
+            lg:px-5 px-4 py-2 rounded-sm hover:bg-[#EFB2B1] transition duration-300'>
                 Book Now
             </button>
         </Link>

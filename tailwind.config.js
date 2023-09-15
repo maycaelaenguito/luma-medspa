@@ -21,6 +21,7 @@ export default {
         '12': '3rem',
       },
       backgroundImage: {
+        'header': " linear-gradient(180deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%), url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1694409717/Luma%20Medspa/skin2_2_p4ox0s.png)",
         'grid-col-1': "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/1_4_zktyvg.png')",
         'grid-col-2': "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688447/Luma%20Medspa/2_4_vkqchp.png')",
         'grid-col-3': "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.47) 59.82%, #000 100%), url('https://res.cloudinary.com/dk3aalcb0/image/upload/v1694688446/Luma%20Medspa/3_4_ctbgzu.png')",
