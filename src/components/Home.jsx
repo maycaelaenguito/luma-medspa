@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
 import BookBtn from './BookBtn';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -96,7 +97,7 @@ const Home = () => {
             </div>
           </div>
        </div>
-     
+     {/* <Footer/> */}
     </div>
   )
 }

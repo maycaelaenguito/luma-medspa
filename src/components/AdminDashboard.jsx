@@ -31,13 +31,7 @@ const AdminDashboard = () => {
             toggle={toggleSideNav} />
           </div>
           <div className="col-auto lg:col-span-3 bg-gray-50 h-[2000px] p-2 xl:col-span-4 2xl:col-span-5 pt-5 px-14 lg:px-8">
-            <h1>Article Title</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              veniam accusamus aut maxime. Quia hic, tempora quod dolorem,
-              exercitationem aliquid deleniti esse vel atque impedit, sapiente
-              quis. Beatae, deserunt molestias!
-            </p>
+           <h1 className='font-raleway lg:text-3xl font-medium'>Dashboard</h1>
           </div>
         </div>
       </main>

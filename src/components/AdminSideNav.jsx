@@ -14,17 +14,17 @@ import {FaSignOutAlt} from 'react-icons/fa';
 const AdminSideNav = () => {
   return (
         <div className="sticky top-0 text-white h-[100vh] px-[10%] py-[5%] bg-gray-800 font-raleway">
-            <div className='flex flex-row justify-between items-end'>
-            <div className='flex flex-row gap-3 items-start'>
-                    <div className='w-[35px]'>
+            <div className=' bg-sky-900 small:w-[90%] flex flex-row items-end rounded-md'>
+            <div className='flex flex-row gap-3 items-start px-3 py-4'>
+                    <div className='w-[28px]'>
                         <img src={Icon} alt="" />
                     </div>
                     <div className='flex items-end'>
-                        <h1 className='font-normal text-3xl'>Admin</h1>
+                        <h1 className='font-normal text-[16px] md:text-[18px]'>Admin</h1>
                     </div>
             </div>
             </div>
-            <div className='py-5 mt-10'>
+            <div className='py-5'>
                 <ul className='flex flex-col gap-4 text-slate-200 font-medium text-[13px] md:text-[15px]'>
                     <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
                         <Link className='flex flex-row gap-3 items-start'>
