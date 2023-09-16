@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
 import Icon from '../assets/profile white (1).png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {FaClipboardList} from 'react-icons/fa';
 import {FaCalendarCheck} from 'react-icons/fa';
 import {FaShoppingCart} from 'react-icons/fa';
@@ -39,48 +39,48 @@ const AdminDashboard = () => {
             </div>
             <div className='py-5'>
               <p className='text-slate-400 pb-3 px-3 font-medium text-[14px] md:text-[16px]'>General</p>
-                <ul className='flex flex-col gap-4 text-slate-200 font-medium text-[13px] md:text-[15px]'>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link to='/dashboard/client-records' className='flex flex-row gap-3 items-start'>
+                <ul className='flex flex-col gap-1 text-slate-200 font-medium text-[13px] md:text-[15px]'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/client-records`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'} >
                             <span><FaClipboardList size={20}/></span>
                             <span>Client Records</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link to='/dashboard/booking' className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/booking`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaCalendarCheck size={20}/></span>
                             <span>Booking Management</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/shop`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaShoppingCart size={20}/></span>
                             <span>Shop</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/gallery`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaImages size={20}/></span>
                             <span>Gallery</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/blogs`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaEdit size={20}/></span>
                             <span>Blogs</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/testimonials`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><BiSolidCommentDots size={20}/></span>
                             <span>Testimonials</span>
-                        </Link>
+                        </NavLink>
                     </li>
-                    <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
-                        <Link className='flex flex-row gap-3 items-start'>
+                    <li className='group transition-colors duration-300'>
+                        <NavLink to={`/dashboard/logout`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaSignOutAlt size={20}/></span>
                             <span>Log Out</span>
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
