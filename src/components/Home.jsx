@@ -16,7 +16,7 @@ const Home = () => {
               <MobileNav/>
              </div>
           </div>
-          <div className="flex h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-center lg:items-end justify-center header-content">
+          <div className="flex h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-cent justify-center header-content">
               <div className='flex flex-col gap-[2rem]'>
                   <h1 className='font-raleway text-slate-100 font-[300] tracking-wider text-[12vw] sm:text-[80px] md:text-[100px] xl:text-[120px] text-center lg:leading-[17vh]'>Welcome to <br/> <span className='text-black'>LUMA</span> <span className='text-[#F2A8A6]'>Medspa</span></h1>
                   <div className='flex justify-center'>
@@ -52,42 +52,42 @@ const Home = () => {
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[3rem] my-10 md:my-16 font-semibold'>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-1 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-1 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                       <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>Injectables and Fillers</p>
                   </Link>
                 </div>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-2 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-2 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                     <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>IV Therapy and Injections</p>
                   </Link>
                 </div>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-3 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-3 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                     <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>Non-Surgical Procedures</p>
                   </Link>
                 </div>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-4 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-4 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                     <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>Intimate Wellness</p>
                   </Link>
                 </div>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-5 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-5 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                     <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>Aesthetic Services</p>
                   </Link>
                 </div>
                 <div className='group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]'>
                   <Link className='grid-item'>
-                      <div className='grid-item bg-grid-col-6 bg-cover bg-center flex items-end max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
+                      <div className='grid-item bg-grid-col-6 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]'>  
                       </div>
                     <p className='text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500'>Retail Skincare and Makeup</p>
                   </Link>

@@ -16,7 +16,7 @@ const MobileNav = () => {
         </div>
         <div>
             <Hamburger 
-            size={22}/>
+            size={24}/>
         </div>
       </div>
     </div>

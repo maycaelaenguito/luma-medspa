@@ -25,7 +25,7 @@ const Navbar = () => {
     <div>
       <div
         className={`pt-5 xl:flex hidden navbar-con font-raleway flex-row justify-around text-slate-100 tracking-widest font-medium transition duration-700 ${
-          scrolled ? 'bg-stone-950 pt-0' : ''
+          scrolled ? 'bg-stone-950 pt-[0px]' : ''
         }`}
       >
         <ul className='flex left-nav uppercase flex-row gap-[2vw] text-[16px] 2xl:text-[17px] items-center '>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="logo-container w-[full] flex justify-center">
           <Link to="/">
             <div className='logo-container w-[160px] py-5' >
-              <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694767971/Luma%20Medspa/Luma_Logo_white_2_y5owy3.png" alt="Uma Logo" />
+              <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694767971/Luma%20Medspa/Luma_Logo_white_2_y5owy3.png" alt="Luma Logo" />
             </div>
           </Link>
         </div>
