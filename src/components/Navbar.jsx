@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link to="/shop">Shop</Link>
           </li>
           <li className='hover:text-[#f5a6a6] transition duration-300'>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/login">Gallery</Link>
           </li>
           <li>
             <BookBtn/>

@@ -16,12 +16,12 @@ const AdminDashboard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
           <div
             className={` small:fixed top-0 lg:left-[0] lg:w-auto lg:col-span-1 ${
-              sideNavVisible ? 'small:left-[0] w-full sm:w-[35vw]' : 'left-[-100vw] sm:left-[-35vw]'
+              sideNavVisible ? 'small:left-[0] w-full sm:w-[38vw]' : 'left-[-100vw] sm:left-[-35vw]'
             }`}
           >
             <AdminSideNav />
           </div>
-          <div className={`fixed top-3 z-40 lg:hidden ${
+          <div className={`absolute top-3 z-40 lg:hidden ${
               sideNavVisible ? 'text-white right-5 sm:left-[27vw]' : 'left-[1vw] text-slate-950'
             } `} >
             <Hamburger
