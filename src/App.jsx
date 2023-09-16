@@ -10,6 +10,8 @@ import Booking from './components/Booking';
 import Gallery from './components/Gallery';
 import Admin from './components/Admin';
 import AdminDashboard from './components/AdminDashboard';
+import ClientRecords from './components/ClientRecords';
+import AdminBooking from './components/AdminBooking';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}></Route>
           <Route path="/login" element={<Admin/>}></Route>
           <Route path="/dashboard" element={<AdminDashboard/>}></Route>
+          <Route path="/dashboard/client-records" element={<ClientRecords/>}></Route>
+          <Route path="/dashboard/booking" element={<AdminBooking/>}></Route>
         </Routes>
      </BrowserRouter>
     </div>
