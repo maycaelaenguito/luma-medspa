@@ -16,7 +16,7 @@ const Home = () => {
               <MobileNav/>
              </div>
           </div>
-          <div className="flex h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-cent justify-center header-content">
+          <div className="flex h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-center justify-center header-content">
               <div className='flex flex-col gap-[2rem]'>
                   <h1 className='font-raleway text-slate-100 font-[300] tracking-wider text-[12vw] sm:text-[80px] md:text-[100px] xl:text-[120px] text-center lg:leading-[17vh]'>Welcome to <br/> <span className='text-black'>LUMA</span> <span className='text-[#F2A8A6]'>Medspa</span></h1>
                   <div className='flex justify-center'>

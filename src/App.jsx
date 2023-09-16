@@ -8,6 +8,8 @@ import Contactus from "./components/Contactus";
 import Shop from './components/Shop';
 import Booking from './components/Booking';
 import Gallery from './components/Gallery';
+import Admin from './components/Admin';
+import AdminDashboard from './components/AdminDashboard';
 
 
 function App() {
@@ -24,7 +26,8 @@ function App() {
           <Route path="/shop" element={<Shop/>}></Route>
           <Route path="/booking" element={<Booking/>}></Route>
           <Route path="/gallery" element={<Gallery/>}></Route>
-
+          <Route path="/login" element={<Admin/>}></Route>
+          <Route path="/dashboard" element={<AdminDashboard/>}></Route>
         </Routes>
      </BrowserRouter>
     </div>
