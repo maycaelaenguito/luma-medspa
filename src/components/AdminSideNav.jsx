@@ -4,8 +4,10 @@ import Icon from '../assets/profile white (1).png';
 import { Link } from 'react-router-dom';
 import {FaClipboardList} from 'react-icons/fa';
 import {FaCalendarCheck} from 'react-icons/fa';
-import {FaCartShopping} from 'react-icons/fa';
+import {FaShoppingCart} from 'react-icons/fa';
 import {FaImages} from 'react-icons/fa';
+import {BiSolidCommentDots} from 'react-icons/bi';
+import {FaEdit} from 'react-icons/fa';
 
 const AdminSideNav = () => {
   return (
@@ -34,25 +36,25 @@ const AdminSideNav = () => {
                 </li>
                 <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
                     <Link className='flex flex-row gap-2 items-start'>
-                        <span><FaCartShopping size={20}/></span>
+                        <span><FaShoppingCart size={20}/></span>
                         <span>Shop</span>
                     </Link>
                 </li>
                 <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
                     <Link className='flex flex-row gap-2 items-start'>
-                        <span><FaClipboardList size={20}/></span>
+                        <span><FaImages size={20}/></span>
                         <span>Gallery</span>
                     </Link>
                 </li>
                 <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
                     <Link className='flex flex-row gap-2 items-start'>
-                        <span><FaClipboardList size={20}/></span>
+                        <span><FaEdit size={20}/></span>
                         <span>Blogs</span>
                     </Link>
                 </li>
                 <li className='group hover:bg-gray-600 hover:text-white w-auto px-2 py-2 rounded-md transition-colors duration-300'>
                     <Link className='flex flex-row gap-2 items-start'>
-                        <span><FaClipboardList size={20}/></span>
+                        <span><BiSolidCommentDots size={20}/></span>
                         <span>Testimonials</span>
                     </Link>
                 </li>
