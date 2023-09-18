@@ -12,7 +12,10 @@ import Admin from './components/Admin';
 import AdminDashboard from './components/AdminDashboard';
 import ClientRecords from './components/ClientRecords';
 import AdminBooking from './components/AdminBooking';
-
+import DashboardShop from './components/DashboardShop';
+import DashboardGallery from './components/DashboardGallery';
+import DashboardBlog from './components/DashboardBlog';
+import Testimonials from './components/Testimonials';
 
 function App() {
 
@@ -32,6 +35,10 @@ function App() {
           <Route path="/dashboard" element={<AdminDashboard/>}></Route>
           <Route path="/dashboard/client-records" element={<ClientRecords/>}></Route>
           <Route path="/dashboard/booking" element={<AdminBooking/>}></Route>
+          <Route path="/dashboard/shop" element={<DashboardShop/>}></Route>
+          <Route path="/dashboard/gallery" element={<DashboardGallery/>}></Route>
+          <Route path="/dashboard/blogs" element={<DashboardBlog/>}></Route>
+          <Route path="/dashboard/testimonials" element={<Testimonials/>}></Route>
         </Routes>
      </BrowserRouter>
     </div>

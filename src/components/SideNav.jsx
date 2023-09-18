@@ -34,7 +34,7 @@ const SideNav = () => {
                             <img src={Icon} alt="" />
                         </div>
                         <div className='flex items-end'>
-                            <h1 className='font-normal text-[16px] md:text-[18px]'>Admin</h1>
+                            <h1 className='font-normal text-[16px] md:text-[18px]'>Dashboard</h1>
                         </div>
                 </div>
                 </div>
