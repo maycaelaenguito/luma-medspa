@@ -15,7 +15,7 @@ import AdminBooking from './components/AdminBooking';
 import DashboardShop from './components/DashboardShop';
 import DashboardGallery from './components/DashboardGallery';
 import DashboardBlog from './components/DashboardBlog';
-import Testimonials from './components/Testimonials';
+import DashboardTestimonials from './components/DashboardTestimonials';
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
           <Route path="/dashboard/shop" element={<DashboardShop/>}></Route>
           <Route path="/dashboard/gallery" element={<DashboardGallery/>}></Route>
           <Route path="/dashboard/blogs" element={<DashboardBlog/>}></Route>
-          <Route path="/dashboard/testimonials" element={<Testimonials/>}></Route>
+          <Route path="/dashboard/testimonials" element={<DashboardTestimonials/>}></Route>
         </Routes>
      </BrowserRouter>
     </div>

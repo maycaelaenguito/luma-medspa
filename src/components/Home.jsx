@@ -7,6 +7,7 @@ import MobileNav from './MobileNav';
 import BookBtn from './BookBtn';
 import Footer from './Footer';
 
+
 const Home = () => {
   return (
     <div>
@@ -96,7 +97,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-       </div>
+      </div>
+
      {/* <Footer/> */}
     </div>
   )

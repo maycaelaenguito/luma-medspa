@@ -10,7 +10,7 @@ const DashboardGallery = () => {
             <SideNav/>
         </div>
         <div className='h-[2000px] mt-10 pl-14 2xl:pl-5 '>
-            <h1>Dashboard</h1>
+            <h1>Gallery</h1>
         </div>
     </div>
   )

@@ -79,7 +79,7 @@ const SideNav = () => {
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/logout`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
                             <span><FaSignOutAlt size={20}/></span>
                             <span>Log Out</span>
                         </NavLink>
