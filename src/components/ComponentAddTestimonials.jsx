@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 // eslint-disable-next-line no-unused-vars
 import axios from 'axios'; // If you are using a backend for storing data.
-import { Link } from 'react-router-dom';
 
 function ComponentAddTestimonials() {
   const [clientData, setClientData] = useState({
@@ -61,13 +60,6 @@ function ComponentAddTestimonials() {
       comment: '',
       image: null,
     });
-  };
-
-  const handleEdit = (index) => {
-    const clientToEdit = clients[index];
-    setClientData(clientToEdit);
-    setIsEditing(true);
-    setEditIndex(index);
   };
 
   const handleDelete = (index) => {
@@ -135,20 +127,25 @@ function ComponentAddTestimonials() {
           <div className="mt-8 lg:col-span-2">
             {clients.map((client, index) => (
               <div key={index} className="mb-4 flex flex-row gap-2 ">
-                <div className="flex flex-row-reverse gap-2 bg-gray-300 p-4 rounded-md">
+                <div className="flex flex-row-reverse gap-2 p-4 border-[1px] border-gray-300 rounded-md">
                   <div className=' w-[35vw] pt-3'>
-                    <div className='relative cursor-pointer group'>
+                    <div className='cursor-pointer flex flex-row gap-3'>
                       <p className="font-semibold">{client.name}</p>
-                      <div>
-
+                      <div className=' text-sm'>
+                        <button className='hover:underline'>Edit</button>
                       </div>
                     </div>
-                    <div className='cursor-pointer'>
-                      <p>{client.comment}</p>
+                    <div className='cursor-pointer flex flex-row gap-3'>
+                      <div className=' rounded-md'>
+                        <p>{client.comment}</p>
+                      </div>
+                      <div className=' text-sm'>
+                        <button className='hover:underline'>Edit</button>
+                      </div>
                     </div>
                   </div>
                   <div >
-                      <Link>
+                      <button>
                         <div className='cursor-pointer relative group'>
                           {client.image && (
                             <img
@@ -158,20 +155,14 @@ function ComponentAddTestimonials() {
                             />
                           )}
                            <div className='absolute top-9 left-8 text-white'>
-                            <Link className='hidden group-hover:flex hover:underline'>Edit</Link>
+                            <button className='hidden group-hover:flex hover:underline'>Edit</button>
                            </div>
                         </div>
-                      </Link>
+                      </button>
                   </div>
                 </div>
                 <div className="mt-2 flex items-center text-sm">
                   <div className='flex flex-row gap-3'>
-                    <button
-                      onClick={() => handleEdit(index)}
-                      className=" hover:underline"
-                    >
-                      Edit
-                    </button>
                     <button
                       onClick={() => handleDelete(index)}
                       className="hover:underline"
