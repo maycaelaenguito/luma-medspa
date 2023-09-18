@@ -90,7 +90,7 @@ const SideNav = () => {
           </div>
       </main>
       <div className={`absolute top-5 z-50 flex lg:hidden ${
-              sideNavVisible ? ' text-white  left-[80vw] xs:left-[85vw] sm:left-[30vw]' : 'left-[1vw] text-slate-950'
+              sideNavVisible ? ' text-white left-[82vw] xs:left-[85vw] sm:left-[30vw] md:left-[31.5vw]' : 'left-[1vw] text-slate-950'
             } `} >
             <Hamburger
             size={25} 
