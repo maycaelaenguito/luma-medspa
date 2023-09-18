@@ -2,11 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
+import TopNav from './TopNav';
+
 
 const MobileNav = () => {
   return (
-    <div>
-      <div className='xl:hidden w-full h-[65px] bg-stone-950 flex flex-row justify-between items-center px-[1rem]'>
+    <div className='xl:hidden relative'>
+      <div className=' w-full h-[65px] bg-stone-950 flex flex-row justify-between items-center px-[1rem]'>
         <div className="logo-container w-[full] flex justify-left">
             <Link to="/">
                 <div className='logo-container w-[55px]'>
@@ -20,6 +22,9 @@ const MobileNav = () => {
             color='white'
             />
         </div>
+      </div>
+      <div className='absolute '>
+        <TopNav/>
       </div>
     </div>
   )
