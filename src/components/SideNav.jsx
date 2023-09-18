@@ -43,43 +43,43 @@ const SideNav = () => {
               <p className='text-slate-400 pb-3 px-3 font-medium text-[14px] md:text-[16px]'>General</p>
                 <ul className='flex flex-col gap-1 text-slate-200 font-medium text-[13px] md:text-[15px]'>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/client-records`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'} >
+                        <NavLink to={`/dashboard/client-records`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'} >
                             <span><FaClipboardList size={20}/></span>
                             <span>Client Records</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/booking`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/dashboard/booking`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><FaCalendarCheck size={20}/></span>
                             <span>Booking Management</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/shop`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/dashboard/shop`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><FaShoppingCart size={20}/></span>
                             <span>Shop</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/gallery`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/dashboard/gallery`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><FaImages size={20}/></span>
                             <span>Gallery</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/blogs`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/dashboard/blogs`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><FaEdit size={20}/></span>
                             <span>Blogs</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/dashboard/testimonials`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/dashboard/testimonials`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><BiSolidCommentDots size={20}/></span>
                             <span>Testimonials</span>
                         </NavLink>
                     </li>
                     <li className='group transition-colors duration-300'>
-                        <NavLink to={`/`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-gray-600 hover:text-white w-auto'}>
+                        <NavLink to={`/`} className={'[&.active]:text-white [&.active]:bg-gray-600 px-2 py-2 rounded-md flex flex-row gap-3 items-start hover:bg-white hover:text-black w-auto'}>
                             <span><FaSignOutAlt size={20}/></span>
                             <span>Log Out</span>
                         </NavLink>

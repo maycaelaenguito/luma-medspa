@@ -73,7 +73,7 @@ function ComponentAddTestimonials() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 focus:outline-none">
       <div className='grid lg:grid-cols-3 gap-5'>
         {/* Form */}
        <div className='lg:col-span-1'>
@@ -89,6 +89,7 @@ function ComponentAddTestimonials() {
                 className="border rounded w-full py-2 px-3"
                 value={clientData.name}
                 onChange={handleInputChange}
+                required
               />
             </div>
             <div className="mb-4">
@@ -101,6 +102,7 @@ function ComponentAddTestimonials() {
                 className="border rounded w-full py-2 px-3"
                 value={clientData.comment}
                 onChange={handleInputChange}
+                required
               ></textarea>
             </div>
             <div className="mb-4">
@@ -113,6 +115,7 @@ function ComponentAddTestimonials() {
                 id="image"
                 accept="image/*"
                 onChange={handleImageChange}
+                required
               />
             </div>
             <button
@@ -127,7 +130,7 @@ function ComponentAddTestimonials() {
           <div className="mt-8 lg:col-span-2">
             {clients.map((client, index) => (
               <div key={index} className="mb-4 flex flex-row gap-2 ">
-                <div className="flex flex-row-reverse gap-2 p-4 border-[1px] border-gray-300 rounded-md">
+                <div className="flex flex-row-reverse gap-2 px-8 py-4 border-[1px] border-gray-300 rounded-md">
                   <div className=' w-[35vw] pt-3'>
                     <div className='cursor-pointer flex flex-row gap-3'>
                       <p className="font-semibold">{client.name}</p>
