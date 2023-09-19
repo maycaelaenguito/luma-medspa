@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
-import Icon from '../assets/profile white (1).png';
 import { NavLink } from 'react-router-dom';
 import {FaClipboardList} from 'react-icons/fa';
 import {FaCalendarCheck} from 'react-icons/fa';
@@ -10,6 +9,7 @@ import {FaImages} from 'react-icons/fa';
 import {BiSolidCommentDots} from 'react-icons/bi';
 import {FaEdit} from 'react-icons/fa';
 import {FaSignOutAlt} from 'react-icons/fa';
+import {BiUserCircle} from 'react-icons/bi';
 
 const SideNav = () => {
   const [sideNavVisible, setSideNavVisible] = useState(false);
@@ -27,13 +27,14 @@ const SideNav = () => {
             }`}
           >
           <div className="sticky top-0 text-white px-[10%] py-[5%] font-raleway">
-            <NavLink to={`/dashboard`}>
-                <div className=' bg-sky-900 small:w-[90%] flex flex-row items-end rounded-md'>
-                <div className='flex flex-row gap-3 items-start px-3 py-4'>
-                        <div className='w-[28px]'>
-                            <img src={Icon} alt="" />
+            <NavLink to={`/dashboard`} className={'[&.active]:text-white [&.active]:bg-gray-600 rounded-md flex flex-row hover:bg-white hover:text-black'}>
+                <div className=' small:w-[90%] flex flex-row items-end hover:bg-white hover:text-black rounded-md w-full'>
+                <div className=' flex flex-row gap-3 items-center px-3 py-4'>
+                        <div className='flex items-start'>
+                            <BiUserCircle
+                            size={40}/>
                         </div>
-                        <div className='flex items-end'>
+                        <div>
                             <h1 className='font-normal text-[16px] md:text-[18px]'>Dashboard</h1>
                         </div>
                 </div>
