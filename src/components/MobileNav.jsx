@@ -29,8 +29,8 @@ const MobileNav = () => {
           />
         </div>
       </div>
-      <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-slate-100 ${isOpen ? 'left-[0]' : 'left-full'}`}>
-        <ul className=' py-5 w-full flex flex-col gap-3'>
+      <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-gray-50 backdrop-blur-2xl h-[100vh] ${isOpen ? 'left-[0] overflow-hidden' : 'left-full'}`}>
+        <ul className='pl-10 pt-20 w-full flex flex-col gap-3 font-semibold font-raleway text-base text-gray-800'>
           <li><Link>Home</Link></li>
           <li><Link>About</Link></li>
           <li><Link>Services</Link></li>
