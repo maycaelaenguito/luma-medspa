@@ -11,7 +11,7 @@ const MobileNav = () => {
   };
 
   return (
-    <div className='xl:hidden relative'>
+    <div className='xl:hidden'>
       <div className='w-full h-[65px] bg-stone-950 flex flex-row justify-between items-center px-[1rem]'>
         <div className="logo-container w-[full] flex justify-left">
           <Link to="/">
@@ -20,17 +20,17 @@ const MobileNav = () => {
             </div>
           </Link>
         </div>
-        <div>
+        <div className='z-50'>
           <Hamburger
             size={24}
-            color='white'
+            color={`${isOpen ? 'black' : 'white'}`}
             toggled={isOpen}
             toggle={toggleMenu}
           />
         </div>
       </div>
-      <div className={`absolute w-full left-full ${isOpen ? 'left-[0]' : 'left-full'}`}>
-        <ul className='bg-slate-100 py-5 w-full flex flex-col gap-3'>
+      <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-slate-100 ${isOpen ? 'left-[0]' : 'left-full'}`}>
+        <ul className=' py-5 w-full flex flex-col gap-3'>
           <li><Link>Home</Link></li>
           <li><Link>About</Link></li>
           <li><Link>Services</Link></li>
