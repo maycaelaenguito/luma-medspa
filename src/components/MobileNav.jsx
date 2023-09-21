@@ -29,15 +29,29 @@ const MobileNav = () => {
           />
         </div>
       </div>
-      <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-gray-50 backdrop-blur-2xl h-[100vh] ${isOpen ? 'left-[0] overflow-hidden' : 'left-full'}`}>
-        <ul className='pl-10 pt-20 w-full flex flex-col gap-3 font-semibold font-raleway text-base text-gray-800'>
-          <li><Link>Home</Link></li>
-          <li><Link>About</Link></li>
-          <li><Link>Services</Link></li>
-          <li><Link>Contact</Link></li>
-          <li><Link>Blog</Link></li>
-          <li><Link>Shop</Link></li>
-          <li><Link>Gallery</Link></li>
+      <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-black backdrop-blur-2xl h-[100vh] ${isOpen ? 'left-[0] overflow-hidden' : 'left-full'}`}>
+        <ul className='pl-10 pt-20 w-full flex flex-col gap-3 font-semibold font-raleway text-base text-gray-100'>
+          <li>
+            <Link to="/" className='hover:text-[#ffadad] transition duration-300'>Home</Link>
+          </li>
+          <li>
+            <Link to="/about" className='hover:text-[#ffadad] transition duration-300'>About</Link>
+          </li>
+          <li>
+            <Link to="/services" className='hover:text-[#ffadad] transition duration-300'>Services</Link>
+          </li>
+          <li>
+            <Link to="/contact" className='hover:text-[#ffadad] transition duration-300'>Contact</Link>
+          </li>
+          <li>
+            <Link to="/blog" className='hover:text-[#ffadad] transition duration-300'>Blog</Link>
+          </li>
+          <li>
+            <Link to="/shop" className='hover:text-[#ffadad] transition duration-300'>Shop</Link>
+          </li>
+          <li>
+            <Link to="/login" className='hover:text-[#ffadad] transition duration-300'>Gallery</Link>
+          </li>
         </ul>
       </div>
     </div>
