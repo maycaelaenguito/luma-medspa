@@ -23,14 +23,14 @@ const MobileNav = () => {
         <div className='z-50'>
           <Hamburger
             size={24}
-            color={`${isOpen ? 'black' : 'white'}`}
+            color='white'
             toggled={isOpen}
             toggle={toggleMenu}
           />
         </div>
       </div>
       <div className={`z-40 absolute top-0 w-full transition-all duration-300 bg-black backdrop-blur-2xl h-[100vh] ${isOpen ? 'left-[0] overflow-hidden' : 'left-full'}`}>
-        <ul className='pl-10 pt-20 w-full flex flex-col gap-3 font-semibold font-raleway text-base text-gray-100'>
+        <ul className='pl-10 pt-20 w-full flex flex-col gap-3 font-medium tracking-wide font-raleway text-2xl sm:text-3xl text-gray-100'>
           <li>
             <Link to="/" className='hover:text-[#ffadad] transition duration-300'>Home</Link>
           </li>
