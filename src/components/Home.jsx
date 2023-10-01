@@ -98,14 +98,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className='grid lg:grid-cols-2 my-[4rem]'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 my-2 lg:my-[4rem]'>
             <div>
               <img src='https://res.cloudinary.com/dk3aalcb0/image/upload/v1696196667/Luma%20Medspa/Owner_tx0y0z.png' alt="Dr. Sarah Williams" />
             </div>
-            <div className='w-full flex justify-center items-center font-raleway px-8'>
+            <div className='w-full flex justify-center items-center font-raleway lg:px-8'>
               <div className='text-center'>
-                <h2 className='lg:text-[40px] font-medium mb-10'>Dr. Sarah, MD</h2>
-                <p className='lg:text-[22px] font-light'>Dr. Sarah Williams, MD, is a board-certified dermatologist known for her exceptional skill in cosmetic and dermatological procedures. With a Doctor of Medicine degree from a prestigious institution, she has dedicated her career to enhancing natural beauty while prioritizing patient safety and well-being. Dr. Sarah&lsquo;s patient-centric approach, ongoing commitment to education, and community outreach make her a respected figure in the field, shaping the industry and inspiring others with her dedication to excellence.</p>
+                <h2 className='text-lg lg:text-[40px] font-medium py-3 lg:mb-10 '>Dr. Sarah, MD</h2>
+                <p className='lg:text-[22px] text-sm font-light'>Dr. Sarah Williams, MD, is a board-certified dermatologist known for her exceptional skill in cosmetic and dermatological procedures. With a Doctor of Medicine degree from a prestigious institution, she has dedicated her career to enhancing natural beauty while prioritizing patient safety and well-being. Dr. Sarah&lsquo;s patient-centric approach, ongoing commitment to education, and community outreach make her a respected figure in the field, shaping the industry and inspiring others with her dedication to excellence.</p>
                 <Link>
                   <LearnMoreBTn/>
                 </Link>
