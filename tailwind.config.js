@@ -34,7 +34,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        Dancing:["Dancing Script","cursive"],
+        Dancing:["Dancing Script","sans-serif"],
         raleway:["Raleway", "sans-serif"],
       },
       lineHeight: {

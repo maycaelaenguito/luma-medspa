@@ -97,6 +97,16 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className='grid lg:grid-cols-2'>
+            <div>
+              <img src='https://res.cloudinary.com/dk3aalcb0/image/upload/v1696196667/Luma%20Medspa/Owner_tx0y0z.png' alt="" />
+            </div>
+            <div className='w-full flex justify-center font-raleway'>
+              <div>
+                <h2 className='lg:text-[40px] font-medium'>Dr. Sarah, MD</h2>
+              </div>
+            </div>
+          </div>
       </div>
 
      <Footer/>
