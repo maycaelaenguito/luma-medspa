@@ -12,7 +12,6 @@ const IntroScroll = () => {
       const introSection = document.querySelector('.intro-scroll');
       if (introSection) {
         const rect = introSection.getBoundingClientRect();
-        // Check if the section is in the viewport
         if (rect.top < window.innerHeight && rect.bottom > 0) {
           setInView(true);
         } else {
@@ -22,7 +21,6 @@ const IntroScroll = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Initial check in case the section is already in view when the component mounts
     handleScroll();
 
     return () => {
