@@ -3,3 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Demo only */
+@media screen and (min-width: 1000px) {
+    .copy h2 {
+      font-size: 70px;
+    }
+  }
