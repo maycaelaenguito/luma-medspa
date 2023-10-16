@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import LearnMoreBtn from './LearnMoreBtn';
 import { useInView } from 'react-intersection-observer';
 
 const OwnerInfoScroll = () => {
@@ -55,7 +54,11 @@ const OwnerInfoScroll = () => {
             <h2 className='text-lg lg:text-3xl xl:text-4xl font-medium py-3 lg:mb-10 '>Dr. Sarah, MD</h2>
             <p className='lg:text-lg text-sm font-light leading-relaxed'>Dr. Sarah Williams, MD, is a board-certified dermatologist known for her exceptional skill in cosmetic and dermatological procedures. With a Doctor of Medicine degree from a prestigious institution, she has dedicated her career to enhancing natural beauty while prioritizing patient safety and well-being. Dr. Sarah&lsquo;s patient-centric approach, ongoing commitment to education, and community outreach make her a respected figure in the field, shaping the industry and inspiring others with her dedication to excellence.</p>
             <Link>
-              <LearnMoreBtn />
+            <div>
+                <button className='bg-[#EFB2B1] text-white text-sm lg:text-lg md:text-base xl:text-xl px-6 py-2 hover:bg-black transition-all duration-300 rounded-lg my-4'>
+                    Learn More
+                </button>
+            </div>
             </Link>
           </div>
         </motion.div>
