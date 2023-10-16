@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div className='bg-header bg-cover bg-center w-full h-full lg:h-max bg-no-repeat lg:pb-[7rem]'>
-          <div className='fixed w-full z-50'>
+          <div className='w-full z-50 overflow-hidden'>
              <div>
               <div className='bg-[#EFB2B1] flex justify-around'>
                 <p className='font-raleway py-1 text-white text-sm md:text-sm font-normal tracking-wider'>123 Main Street, Springfield, IL 62701</p>
@@ -22,7 +22,7 @@ const Home = () => {
               <MobileNav/>
              </div>
           </div>
-          <div className="flex h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-center justify-center header-content">
+          <div className="flex w-full h-[90vh] lg:h-auto pt-10 lg:pt-[13rem] xl:pt-[19rem] items-center justify-center header-content relative">
               <div className='flex flex-col gap-[2rem]'>
                   <h1 className='font-raleway text-slate-100 font-[300] tracking-wider text-[12vw] sm:text-[80px] md:text-[100px] xl:text-[120px] text-center lg:leading-[17vh]'>Welcome to <br/> <span className='text-black'>LUMA</span> <span className='text-[#F2A8A6]'>Medspa</span></h1>
                   <div className='flex justify-center'>
