@@ -32,23 +32,13 @@ const OwnerInfoScroll = () => {
   }, [controls1, controls2, inView, inViewObserver]);
 
   return (
-    <section ref={ref} className='intro-scroll grid grid-cols-1 lg:grid-cols-2 my-2 lg:my-[4rem]'>
-      <div>
+    <section ref={ref} className='intro-scroll grid grid-cols-1 lg:grid-cols-2 my-16 lg:my-[4rem]'>
+      
+      <div className='w-full flex justify-center items-center font-raleway lg:px-8'>
         <motion.div
           className='w-full flex items-center'
           initial={{ x: -200, opacity: 0 }}
           animate={controls1}
-        >
-          <div>
-            <img src='https://res.cloudinary.com/dk3aalcb0/image/upload/v1696196667/Luma%20Medspa/Owner_tx0y0z.png' alt="Dr. Sarah Williams" />
-          </div>
-        </motion.div>
-      </div>
-      <div className='w-full flex justify-center items-center font-raleway lg:px-8'>
-        <motion.div
-          className='w-full flex items-center'
-          initial={{ x: 200, opacity: 0 }}
-          animate={controls2}
         >
           <div className='text-center'>
             <h2 className='text-lg lg:text-3xl xl:text-4xl font-medium py-3 lg:mb-10 '>Dr. Sarah, MD</h2>
@@ -60,6 +50,17 @@ const OwnerInfoScroll = () => {
                 </button>
             </div>
             </Link>
+          </div>
+        </motion.div>
+      </div>
+      <div className='overflow-hidden'>
+        <motion.div
+          className='w-full flex items-center'
+          initial={{ x: 200, opacity: 0 }}
+          animate={controls2}
+        >
+          <div>
+            <img src='https://res.cloudinary.com/dk3aalcb0/image/upload/v1696196667/Luma%20Medspa/Owner_tx0y0z.png' alt="Dr. Sarah Williams" />
           </div>
         </motion.div>
       </div>

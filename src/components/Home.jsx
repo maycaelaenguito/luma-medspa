@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <div className='bg-header bg-cover bg-center w-full h-full lg:h-max bg-no-repeat lg:pb-[7rem]'>
-          <div className='w-full z-50 overflow-hidden'>
+          <div className='fixed w-full z-50'>
              <div>
               <div className='bg-[#EFB2B1] flex justify-around'>
                 <p className='font-raleway py-1 text-white text-sm md:text-sm font-normal tracking-wider'>123 Main Street, Springfield, IL 62701</p>
