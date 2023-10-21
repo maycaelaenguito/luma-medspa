@@ -19,14 +19,14 @@ const OwnerInfoScroll = () => {
       controls1.start({
         x: 0,
         opacity: 1,
-        transition: { type: 'spring', duration: 3, delay: 0.3 },
+        transition: { type: 'spring', duration: 2, delay: 0.3 },
       });
 
       // Animate Section 2 from invisible to visible if inView
       controls2.start({
         x: 0,
         opacity: 1,
-        transition: { type: 'spring', duration: 3, delay: 0.3 },
+        transition: { type: 'spring', duration: 2, delay: 0.3 },
       });
     }
   }, [controls1, controls2, inView, inViewObserver]);

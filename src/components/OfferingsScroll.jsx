@@ -10,16 +10,18 @@ const OfferingsScroll = () => {
 
   const variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: .5, delay: .7 } },
+  visible: { opacity: 1, y: 0, transition: { duration: .4, delay: .5 } },
 };
 
 return (
   <div>
     <div className="font-raleway text-[15px] tracking-wide z-20 md:py-[3rem]">
-      <div className='text-[25px] sm:text-[30px] md:text-[35px] lg:text-[45px] font-medium'>
-        <h1 className='tracking-[-0.9px]'> Clinical Skincare Treatments</h1>
-        <hr className="h-[2px] w-[30%] sm:w-[25%] md:w-[23%] border-t-0 bg-[#FFA2A0] opacity-100" />
-      </div>
+      <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
+        <div className='text-[25px] sm:text-[30px] md:text-[35px] lg:text-[45px] font-medium'>
+          <h1 className='tracking-[-0.9px]'> Clinical Skincare Treatments</h1>
+          <hr className="h-[2px] w-[30%] sm:w-[25%] md:w-[23%] border-t-0 bg-[#FFA2A0] opacity-100" />
+        </div>
+      </motion.div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[3rem] my-10 md:my-16 font-semibold">
 
         {/* Offering 1 */}

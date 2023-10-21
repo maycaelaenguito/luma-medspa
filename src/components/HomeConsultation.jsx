@@ -15,7 +15,7 @@ const HomeConsultation = () => {
         ref={ref}
         initial={{ opacity: 0 }}
         animate={{ opacity: inView ? 1 : 0 }}
-        transition={{ duration: 3, ease: "easeOut" }}
+        transition={{ duration: 2, ease: "easeOut" }}
         className='w-full flex justify-center'
       >
         <div className='text-center'>
@@ -27,7 +27,7 @@ const HomeConsultation = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className='md:my-5'>
             <Link to='/your-link-here'>
               <button className='bg-[#EFB2B1] font-normal text-white text-sm lg:text-lg md:text-base xl:text-xl px-6 py-3 hover:bg-black transition-all duration-300 rounded-lg my-4 tracking-wide'>
                 Book A Consultation Now!
