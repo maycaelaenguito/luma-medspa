@@ -10,7 +10,7 @@ const HomeConsultation = () => {
   });
 
   return (
-    <div className='font-raleway md:my-[8rem]'>
+    <div className='font-raleway md:my-[6rem]'>
       <motion.div
         ref={ref}
         initial={{ opacity: 0 }}
