@@ -8,6 +8,7 @@ import Footer from './Footer';
 import IntroScroll from './IntroScroll';
 import OfferingsScroll from './OfferingsScroll';
 import OwnerInfoScroll from './OwnerInfoScroll';
+import HomeConsultation from './HomeConsultation';
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
         <IntroScroll/>    
         <OfferingsScroll/>
         <OwnerInfoScroll/>
-          
+        <HomeConsultation/>
       </div>
       
      <Footer/>
