@@ -28,12 +28,12 @@ return (
         {/* Product 1 */}
         <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
             <div className="grid-item text-center">
-              <div className='flex justify-center'>
-                <Link>
-                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/6_2_xcbxzy.png" alt="" className='h-80 w-80 object-cover'/>  
-                </Link>
-              </div>
-              <h3 className='uppercase py-3 text-[16px] font-semibold'>Acne Clearing Toner</h3>
+              <Link>
+                <div className='flex justify-center'>
+                    <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/6_2_xcbxzy.png" alt="" className='h-80 w-80 object-cover'/>  
+                </div>
+                <h3 className='uppercase py-3 text-[16px] font-semibold'>Acne Clearing Toner</h3>
+              </Link>
               <div className='w-full flex justify-center'>
                 <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
               </div>
@@ -44,12 +44,12 @@ return (
         {/* Product 2 */}
         <motion.div ref={refs[1][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="grid-item text-center">
-            <div className='flex justify-center'>
-              <Link>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006676/Luma%20Medspa/3_5_ht8kvq.png" alt="" className='h-80 w-80 object-cover'/>  
-              </Link>
-            </div>
-            <h3 className='uppercase py-3 text-[16px] font-semibold'>Thermal Spring Water</h3>
+            <Link>
+              <div className='flex justify-center'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006676/Luma%20Medspa/3_5_ht8kvq.png" alt="" className='h-80 w-80 object-cover'/>  
+              </div>
+              <h3 className='uppercase py-3 text-[16px] font-semibold'>Thermal Spring Water</h3>
+            </Link>
             <div className='w-full flex justify-center'>
               <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
             </div>
@@ -60,12 +60,12 @@ return (
       {/* Product 3 */}
         <motion.div ref={refs[2][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="grid-item text-center">
-            <div className='flex justify-center'>
-              <Link>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/1_5_ur8csa.png" alt="" className='h-80 w-80 object-cover'/>  
-              </Link>
-            </div>
-            <h3 className='uppercase py-3 text-[16px] font-semibold'>Restorative Cream</h3>
+            <Link>
+              <div className='flex justify-center'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/1_5_ur8csa.png" alt="" className='h-80 w-80 object-cover'/>  
+              </div>
+              <h3 className='uppercase py-3 text-[16px] font-semibold'>Restorative Cream</h3>
+            </Link>
             <div className='w-full flex justify-center'>
               <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
             </div>
@@ -76,12 +76,12 @@ return (
       {/* Product 4 */}
         <motion.div ref={refs[3][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="grid-item text-center">
-            <div className='flex justify-center'>
-              <Link>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/5_3_vu7mji.png" alt="" className='h-80 w-80 object-cover'/>  
-              </Link>
-            </div>
-            <h3 className='uppercase py-3 text-[16px] font-semibold'>Main Squeeze Hydrating Serum</h3>
+            <Link>
+              <div className='flex justify-center'>
+                    <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/5_3_vu7mji.png" alt="" className='h-80 w-80 object-cover'/>  
+                </div>
+                <h3 className='uppercase py-3 text-[16px] font-semibold'>Main Squeeze Hydrating Serum</h3>
+            </Link>
             <div className='w-full flex justify-center'>
               <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
             </div>
@@ -92,12 +92,12 @@ return (
       {/* {/ Product 5 /} */}
         <motion.div ref={refs[4][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="grid-item text-center">
-            <div className='flex justify-center'>
-              <Link>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/2_5_t2lksr.png" alt="" className='h-80 w-80 object-cover'/>  
-              </Link>
-            </div>
-            <h3 className='uppercase py-3 text-[16px] font-semibold'>Antioxidant Serum</h3>
+            <Link>
+              <div className='flex justify-center'>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/2_5_t2lksr.png" alt="" className='h-80 w-80 object-cover'/>  
+              </div>
+              <h3 className='uppercase py-3 text-[16px] font-semibold'>Antioxidant Serum</h3>
+            </Link>
             <div className='w-full flex justify-center'>
               <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
             </div>
@@ -108,12 +108,12 @@ return (
       {/* Product 6 */}
         <motion.div ref={refs[5][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="grid-item text-center">
-            <div className='flex justify-center'>
-              <Link>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/4_3_hebhks.png" alt="" className='h-80 w-80 object-cover'/> 
-              </Link> 
-            </div>
-            <h3 className='uppercase py-3 text-[16px] font-semibold'>HA IMMERSE Serum™</h3>
+            <Link>
+              <div className='flex justify-center'>             
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/4_3_hebhks.png" alt="" className='h-80 w-80 object-cover'/>           
+              </div>
+              <h3 className='uppercase py-3 text-[16px] font-semibold'>HA IMMERSE Serum™</h3>
+            </Link>
             <div className='w-full flex justify-center'>
               <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
             </div>

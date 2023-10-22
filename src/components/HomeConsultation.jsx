@@ -20,7 +20,9 @@ const HomeConsultation = () => {
       >
         <div className='text-center'>
           <div>
-            <h1 className='capitalize text-[#F2A8A6] text-[50px] font-semibold py-2'>Ready to rediscover your best self?</h1>
+
+              <h1 className='capitalize text-[#F2A8A6] text-[25px] sm:text-[35px] md:text-[50px] font-semibold py-2 consult'>Ready to rediscover your best self?</h1>
+
             <div className='flex justify-center'>
               <p className='w-[75%] font-normal leading-[23.88px]'>
                 At LUMA Medspa, we specialize in rejuvenating your natural beauty and well-being. Our team of experienced professionals is committed to helping you achieve your aesthetic and medical goals. Are you ready to take the first step toward a more confident, radiant you?
