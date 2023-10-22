@@ -18,7 +18,7 @@ return (
     <div className="font-raleway text-[15px] tracking-wide z-20 md:py-[3rem]">
       <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
         <div className='text-[25px] sm:text-[30px] md:text-[35px] lg:text-[45px] font-medium'>
-          <h1 className='tracking-[-0.9px]'> Clinical Skincare Treatments</h1>
+          <h1 className='tracking-[-0.9px] text-[#FFA2A0]'> Clinical Skincare Treatments</h1>
           <hr className="h-[2px] w-[30%] sm:w-[25%] md:w-[23%] border-t-0 bg-[#FFA2A0] opacity-100" />
         </div>
       </motion.div>

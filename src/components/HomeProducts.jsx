@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import AddToCart from './AddToCart';
 
 const HomeProducts = () => {
   // Create an array of refs
@@ -18,7 +19,7 @@ return (
     <div className="font-raleway text-[15px] tracking-wide z-20">
       <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
         <div className='text-[25px] sm:text-[30px] md:text-[35px] lg:text-[45px] font-medium'>
-          <h1 className='tracking-[-0.9px]'> Our Best Sellers</h1>
+          <h1 className='tracking-[-0.9px] text-[#FFA2A0]'> Our Best Sellers</h1>
           <hr className="h-[2px] w-[30%] sm:w-[25%] md:w-[23%] border-t-0 bg-[#FFA2A0] opacity-100" />
         </div>
       </motion.div>
@@ -26,12 +27,14 @@ return (
 
         {/* Offering 1 */}
         <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
-          <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
-            <Link className="grid-item">
-              <div className="grid-item bg-grid-col-1 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500">
-              Injectables and Fillers
-              </p>
+          <div className="group relative bg-cover bg-no-repeat w-full">
+            <Link className="grid-item text-center">
+             <div className='flex justify-center'>
+              <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/6_2_xcbxzy.png" alt="" className='h-80 w-80 object-cover'/>  
+             </div>
+             <h3>Bio-Renew EGF Cream</h3>
+             <p>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
+             <AddToCart/>
             </Link>
           </div>
         </motion.div>
@@ -40,10 +43,10 @@ return (
         <motion.div ref={refs[1][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
             <Link className="grid-item">
-              <div className="grid-item bg-grid-col-2 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500">
-              IV Therapy and Injections
-              </p>
+              <div className="grid-item bg-grid-col-2 bg-cover bg-center max-w-full h-[366px]"></div>
+                <p className="">
+                IV Therapy and Injections
+                </p>
             </Link>
           </div>
         </motion.div>
@@ -52,8 +55,8 @@ return (
         <motion.div ref={refs[2][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
             <Link className="grid-item">
-              <div className="grid-item bg-grid-col-3 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500">
+              <div className="grid-item bg-grid-col-3 bg-cover bg-center max-w-full h-[366px]"></div>
+              <p className="">
               Non-Surgical Procedures
               </p>
             </Link>
@@ -64,8 +67,8 @@ return (
         <motion.div ref={refs[3][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
             <Link className="grid-item">
-              <div className="grid-item bg-grid-col-4 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500">
+              <div className="grid-item bg-grid-col-4 bg-cover bg-center max-w-full h-[366px]"></div>
+              <p className="">
               Intimate Wellness
               </p>
             </Link>
@@ -76,8 +79,8 @@ return (
         <motion.div ref={refs[4][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
             <Link className="grid-item">
-              <div className="grid-item bg-grid-col-5 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-in-out duration-500">
+              <div className="grid-item bg-grid-col-5 bg-cover bg-center max-w-full h-[366px]"></div>
+              <p className="">
               Aesthetic Services
               </p>
             </Link>
@@ -88,8 +91,8 @@ return (
         <motion.div ref={refs[5][0]} initial="hidden" whileInView="visible" variants={variants}>
           <div className="group relative overflow-hidden bg-cover bg-no-repeat max-w-full h-[366px]">
             <Link className="grid-item">
-              <div className="grid-item bg-grid-col-6 bg-cover bg-center max-w-full transition duration-300 ease-in-out group-hover:scale-105 h-[366px]"></div>
-              <p className="text-slate-100 bottom-10 left-7 absolute group-hover:transition group-hover:bottom-14 ease-inout duration-500">
+              <div className="grid-item bg-grid-col-6 bg-cover bg-center max-w-full h-[366px]"></div>
+              <p className="">
               Retail Skincare and Makeup
               </p>
             </Link>
