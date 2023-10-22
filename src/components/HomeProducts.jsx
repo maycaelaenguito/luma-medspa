@@ -27,16 +27,16 @@ return (
 
         {/* Offering 1 */}
         <motion.div ref={refs[0][0]} initial="hidden" whileInView="visible" variants={variants}>
-          <div className="group relative bg-cover bg-no-repeat w-full">
             <Link className="grid-item text-center">
-             <div className='flex justify-center'>
-              <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/6_2_xcbxzy.png" alt="" className='h-80 w-80 object-cover'/>  
-             </div>
-             <h3>Bio-Renew EGF Cream</h3>
-             <p>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
-             <AddToCart/>
+              <div className='flex justify-center'>
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1698006675/Luma%20Medspa/6_2_xcbxzy.png" alt="" className='h-80 w-80 object-cover'/>  
+              </div>
+              <h3 className='uppercase py-3 text-[16px] font-semibold'>Bio-Renew EGF Cream</h3>
+              <div className='w-full flex justify-center'>
+                <p className='font-light w-[80%] text-[14px]'>Age-defying face cream for firmer, smoother skin with EGF, peptides, and phyto-retinol.</p>
+              </div>
+              <AddToCart/>
             </Link>
-          </div>
         </motion.div>
 
         {/* Offering 2 */}
