@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { BsChevronLeft } from 'react-icons/bs';
 import { BsChevronRight } from 'react-icons/bs';
 import { AiFillStar } from 'react-icons/ai';
@@ -19,8 +19,9 @@ const testimonials = [
   },
 ];
 
-const Testimontials = () => {
+const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const timerRef = useRef(null);
 
   const handleLeftClick = () => {
     if (currentIndex > 0) {
@@ -37,6 +38,25 @@ const Testimontials = () => {
     }
   };
 
+  useEffect(() => {
+    const handleRightClick = () => {
+      if (currentIndex < testimonials.length - 1) {
+        setCurrentIndex(currentIndex + 1);
+      } else {
+        // Loop back to the first testimonial if the last testimonial is reached
+        setCurrentIndex(0);
+      }
+    };
+
+    timerRef.current = setInterval(() => {
+      handleRightClick();
+    }, 3000);
+
+    return () => {
+      clearInterval(timerRef.current);
+    };
+  }, [currentIndex]);
+
   const testimonial = testimonials[currentIndex];
 
   return (
@@ -45,12 +65,12 @@ const Testimontials = () => {
         <h1 className='tracking-[-0.9px] text-[#FFA2A0]'>Our Best Sellers</h1>
         <hr className="h-[2px] w-[30%] sm:w-[25%] md:w-[23%] border-t-0 bg-[#FFA2A0] opacity-100" />
       </div>
-      <div className='flex flex-row w-full items-center my-10 text-center'>
-        <button onClick={handleLeftClick}>
+      <div className='flex flex-row w-full items-center h-[25vh] text-center'>
+        <button onClick={handleLeftClick} className='hover:bg-[#FFA2A0] hover:text-black p-1 rounded-full transition-all duration-300'>
           <BsChevronLeft size={30} />
         </button>
         <div className='w-full flex justify-center'>
-          <div className='flex flex-col'>
+          <div className='flex flex-col transition-all duration-300'>
             <div className='flex flex-row justify-center text-[#D39391]'>
               <AiFillStar size={25} />
               <AiFillStar size={25} />
@@ -70,7 +90,7 @@ const Testimontials = () => {
             </div>
           </div>
         </div>
-        <button onClick={handleRightClick}>
+        <button onClick={handleRightClick} className='hover:bg-[#FFA2A0] hover:text-black p-1 rounded-full transition-all duration-300'>
           <BsChevronRight size={30} />
         </button>
       </div>
@@ -78,4 +98,4 @@ const Testimontials = () => {
   );
 };
 
-export default Testimontials;
+export default Testimonials;
